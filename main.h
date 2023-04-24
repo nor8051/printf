@@ -9,7 +9,6 @@
 #define UNUSED(x) (void)(x)
 #define BUFF_SIZE 1024
 #define BUF_FLUSH -1
-#define FLAGS_INIT {0, 0, 0, 0, 0}
 
 /* FLAGS */
 #define F_MINUS 1
@@ -17,7 +16,7 @@
 #define F_ZERO 4
 #define F_HASH 8
 #define F_SPACE 16
-
+#define FLAGS_INIT {0, 0, 0, 0, 0}
 /* SIZES */
 #define S_LONG 2
 #define S_SHORT 1
